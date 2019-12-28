@@ -1,0 +1,137 @@
+[
+    {
+        "genre":"Superhero film",
+        "type": "超級英雄片",
+        "name": "復仇者聯盟4: 終局之戰",
+        "title": "Avengers: Endgame",
+        "stars": 5,
+        "bgImg": "https://images8.alphacoders.com/100/thumb-1920-1003220.png",
+        "list": ["Captain Marvel", "Avengers: Endgame","Spider-Man: Far From Home","Shazam!","Dark Phoenix","Hellboy"]
+    },
+    {
+        "genre":"Drama",
+        "type": "劇情片",
+        "name": "鋒迴路轉",
+        "title": "Knives Out",
+        "stars": 5,
+        "bgImg": "https://images8.alphacoders.com/105/thumb-1920-1052048.jpg",
+        "list": ["Knives Out","Parasite"]
+    },
+    {
+        "genre":"Science fiction film",
+        "type": "科幻片",
+        "name": "AI終結戰",
+        "title": "I Am Mother",
+        "stars": 4,
+        "bgImg": "https://images3.alphacoders.com/102/thumb-1920-1023163.jpg",
+        "list": ["I Am Mother","Gemini Man","Alita: Battle Angel","Glass", "Terminator: Dark Fate"]
+    },
+    {
+        "genre":"classic films",
+        "type": "經典再續",
+        "name": "安眠醫生",
+        "title": "Doctor Sleep",
+        "stars": 4,
+        "bgImg": "https://m.media-amazon.com/images/M/MV5BNTI2NjMwMmItZWJlNi00NzE3LTgzNmUtNmIyZjY5YWRhYjY4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX1776_CR0,0,1776,913_AL_.jpg",
+        "list": ["Doctor Sleep","Rambo: Last Blood","Terminator: Dark Fate"]
+    },
+    {
+        "genre":"Monster movie",
+        "type": "怪獸片",
+        "name": "哥吉拉II 怪獸之王",
+        "title": "Godzilla: King of the Monsters",
+        "stars": 4,
+        "bgImg": "https://images.alphacoders.com/102/1020488.jpg",
+        "list": ["Godzilla: King of the Monsters"]
+    },
+    {
+        "genre":"Films based on history",
+        "type": "真人真事改編",
+        "name": "幸福綠皮書",
+        "title": "Green Book",
+        "stars": 4,
+        "bgImg": "https://images3.alphacoders.com/100/thumb-1920-1008716.jpg",
+        "list": ["Green Book","The Current War","Brexit","Vice","Hotel Mumbai"]
+    },
+    {
+        "genre":"Animation",
+        "type": "動畫片",
+        "name": "玩具總動員4",
+        "title": "Toy Story 4",
+        "stars": 4.5,
+        "bgImg": "https://images2.alphacoders.com/101/thumb-1920-1017071.jpg",
+        "list": ["Toy Story 4","How to Train Your Dragon: The Hidden World","The Secret Life of Pets 2"]
+    },
+    {
+        "genre":"Animation",
+        "type": "日本動畫片",
+        "name": "天氣之子",
+        "title": "Weathering With You",
+        "stars": 4,
+        "bgImg": "https://images3.alphacoders.com/100/thumb-1920-1006921.jpg",
+        "list": ["Weathering With You", "Penguin Highway"]
+    },
+    {
+        "genre":"Action film",
+        "type": "動作片",
+        "name": "捍衛任務3：全面開戰",
+        "title": "John Wick: Chapter 3",
+        "stars": 4,
+        "bgImg": "https://images3.alphacoders.com/103/thumb-1920-1033561.jpg",
+        "list": ["John Wick: Chapter 3","Anna","Hobbs & Shaw","Danger Close","EXIT"]
+    },
+    {
+        "genre":"Crime film",
+        "type": "犯罪片",
+        "name": "小丑",
+        "title": "Joker",
+        "bgImg": "https://images3.alphacoders.com/100/thumb-1920-1004447.jpg",
+        "list": ["Joker","Escape Room","Us","Ready or Not"]
+    },
+    {
+        "genre":"Comedy film",
+        "type": "喜劇片",
+        "name": "雞不可失",
+        "title": "Extreme Job",
+        "stars": 4.5,
+        "bgImg": "https://m.media-amazon.com/images/M/MV5BMTRiZDJjZTMtNzNlYy00Mzc0LWI4YjItODIzZjlmYjRkMzkxXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_.jpg",
+        "list": ["Extreme Job"]
+    },
+    {
+        "genre":"Romance film",
+        "type": "愛情片",
+        "name": "愛上觸不到的你",
+        "title": "Five Feet Apart",
+        "stars": 3.5,
+        "bgImg": "https://m.media-amazon.com/images/M/MV5BYjM5NjI0YWQtNzg1OC00ODYzLWIxY2YtM2U1MGVlNzI2OTI3XkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_SX1777_CR0,0,1777,750_AL_.jpg",
+        "list": ["Five Feet Apart", "Long Shot", "Fortuna's Eye"]
+    },
+    {
+        "genre":"Taiwan film",
+        "type": "台灣片",
+        "name": "返校",
+        "title": "Detention",
+        "stars": 4,
+        "bgImg": "https://www.98yp.net/wp-content/uploads/2019/06/%E3%80%8A%E8%BF%94%E6%A0%A1%E3%80%8B%E7%8E%8B%E6%B7%A8%E9%A3%BE%E6%BC%94%E6%96%B9%E8%8A%AE%E6%AC%A3%E9%A0%90%E5%91%8A%E9%96%8B%E5%A0%B4%E5%B0%B1%E5%9C%A8%E6%95%99%E5%AE%A4%E7%86%9F%E7%9D%A1.jpg",
+        "list": ["Detention"]
+    },
+    {
+        "genre":"Japan film",
+        "type": "日本片",
+        "name": "電影版狂賭之淵",
+        "title": "Eiga: Kakegurui",
+        "stars": 4.5,
+        "bgImg": "https://m.media-amazon.com/images/M/MV5BNWUwZDI3MjEtZmE0Zi00OTc4LWIzYmYtZGRjZGMyNDMxYzE1XkEyXkFqcGdeQXVyNDQxNjcxNQ@@._V1_.jpg",
+        "list": ["Eiga: Kakegurui","Kingdom","Samurai marason","Fortuna's Eye","Stolen Identity"]
+    },
+    {
+        "genre":"South Korea film",
+        "type": "韓國片",
+        "name": "雞不可失",
+        "title": "Extreme Job",
+        "stars": 4.5,
+        "bgImg": "https://m.media-amazon.com/images/M/MV5BMmI3YzQ3N2EtMmUyOS00NzdmLWFjMzItY2I5YjIzOGQ5OWI1XkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_SY1000_CR0,0,1500,1000_AL_.jpg",
+        "list": ["Parasite", "Extreme Job", "EXIT","The Divine Fury"]
+    }
+
+]
