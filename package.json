@@ -2,10 +2,13 @@
   "name": "annual2019movies",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jacobhsu.github.io/annual2019movies/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
