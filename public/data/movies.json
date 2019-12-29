@@ -20,11 +20,11 @@
     {
         "genre":"Science fiction film",
         "type": "科幻片",
-        "name": "AI終結戰",
-        "title": "I Am Mother",
+        "name": "星際大戰9：天行者的崛起",
+        "title": "Star Wars: The Rise of Skywalker",
         "stars": 4,
-        "bgImg": "https://images3.alphacoders.com/102/thumb-1920-1023163.jpg",
-        "list": ["I Am Mother","Gemini Man","Alita: Battle Angel","Glass", "Terminator: Dark Fate"]
+        "bgImg": "https://images3.alphacoders.com/103/thumb-1920-1037579.jpg",
+        "list": ["Star Wars: The Rise of Skywalker", "I Am Mother","Gemini Man","Alita: Battle Angel","Glass", "Terminator: Dark Fate"]
     },
     {
         "genre":"classic films",
@@ -95,7 +95,7 @@
         "title": "Extreme Job",
         "stars": 4.5,
         "bgImg": "https://m.media-amazon.com/images/M/MV5BMTRiZDJjZTMtNzNlYy00Mzc0LWI4YjItODIzZjlmYjRkMzkxXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_.jpg",
-        "list": ["Extreme Job"]
+        "list": ["Extreme Job","City Hunter"]
     },
     {
         "genre":"Romance film",

@@ -98,7 +98,10 @@ export default {
   },
   methods: {
     async getList () {
-      let res  = await axios.get('../data/movies.json')
+      const devEnv = process.env.NODE_ENV
+      const moviesData = devEnv === "development" ? '../data/movies.json' : '../annual2019movies/data/movies.json';
+
+      let res  = await axios.get(moviesData)
       .then(response => {
         let thatSections = this.sections;
         let thatList = this.lists;
@@ -112,7 +115,7 @@ export default {
 
           switch(movie.title) {
               case "Eiga: Kakegurui":
-                  api = 'http://www.omdbapi.com/?apikey=4e1e08f0&i=tt9552162&plot=full&type=movie&tomatoes=true';
+                  api = 'https://www.omdbapi.com/?apikey=4e1e08f0&i=tt9552162&plot=full&type=movie&tomatoes=true';
                   break;     
               default:
                   api = 'https://www.omdbapi.com/?'+'apikey='+apikey+'&t=' + movie.title + '&type=movie&tomatoes=true';
@@ -130,16 +133,19 @@ export default {
 
             switch(title) {
                 case "Eiga: Kakegurui":
-                    theapi = 'http://www.omdbapi.com/?apikey=4e1e08f0&i=tt9552162&plot=full&type=movie&tomatoes=true';
+                    theapi = 'https://www.omdbapi.com/?apikey=4e1e08f0&i=tt9552162&plot=full&type=movie&tomatoes=true';
                     break;
                 case "Detention":
-                    theapi = 'http://www.omdbapi.com/?apikey=4e1e08f0&i=tt10805432&plot=full&type=movie&tomatoes=true';
+                    theapi = 'https://www.omdbapi.com/?apikey=4e1e08f0&i=tt10805432&plot=full&type=movie&tomatoes=true';
                     break; 
                 case "Samurai marason":
-                    theapi = 'http://www.omdbapi.com/?apikey=4e1e08f0&i=tt9311062&plot=full&type=movie&tomatoes=true';
+                    theapi = 'https://www.omdbapi.com/?apikey=4e1e08f0&i=tt9311062&plot=full&type=movie&tomatoes=true';
                     break;    
                 case "Stolen Identity":
-                    theapi = 'http://www.omdbapi.com/?apikey=4e1e08f0&i=tt8531044&plot=full&type=movie&tomatoes=true';
+                    theapi = 'https://www.omdbapi.com/?apikey=4e1e08f0&i=tt8531044&plot=full&type=movie&tomatoes=true';
+                    break;
+                case "City Hunter":
+                    theapi ='https://www.omdbapi.com/?apikey=4e1e08f0&i=tt8523334&plot=full&type=movie&tomatoes=true';
                     break;  
                 case "Hellboy":
                 case "EXIT":
