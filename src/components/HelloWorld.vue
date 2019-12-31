@@ -66,6 +66,7 @@
 
 <script>
 import axios from 'axios';
+import { uniq } from 'ramda';
 
 export default {
   name: 'HelloWorld',
@@ -105,10 +106,11 @@ export default {
       .then(response => {
         let thatSections = this.sections;
         let thatList = this.lists;
-
+console.log(123, response.data)
         let omdbapi = [];
         let sub_omdbapi = [];
         let movies = [];
+        let totalMovies = [];
         response.data.forEach(function(movie,id) {
           const apikey = '4e1e08f0';
           let api = 'https://www.omdbapi.com/?'+'apikey='+apikey+'&t=' + movie.title + '&type=movie&tomatoes=true';
@@ -128,7 +130,7 @@ export default {
 
           sub_omdbapi.push([]);
           movie.list.forEach(function(title) {
-
+            totalMovies.push(title);
             let theapi = 'https://www.omdbapi.com/?'+'apikey='+apikey+'&t=' + title + '&type=movie&tomatoes=true';
 
             switch(title) {
@@ -157,8 +159,14 @@ export default {
 
             sub_omdbapi[id].push(axios.get(theapi));
           });
+
+
+         
+         
         });
 
+        const total = uniq(totalMovies)
+        console.log('total movies:', total.length)
 
         axios.all(omdbapi).then(axios.spread((...res)=>{
           res.forEach(function(resOmdb, id) {
