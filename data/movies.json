@@ -15,7 +15,7 @@
         "title": "Knives Out",
         "stars": 5,
         "bgImg": "https://images8.alphacoders.com/105/thumb-1920-1052048.jpg",
-        "list": ["Knives Out","Parasite"]
+        "list": ["Knives Out","Parasite","It：Chapter Two"]
     },
     {
         "genre":"Science fiction film",
@@ -85,8 +85,18 @@
         "type": "犯罪片",
         "name": "小丑",
         "title": "Joker",
+        "stars": 4,
         "bgImg": "https://images3.alphacoders.com/100/thumb-1920-1004447.jpg",
-        "list": ["Joker","Escape Room","Us","Ready or Not"]
+        "list": ["Joker","The Irishman"]
+    },
+    {
+        "genre":"Thriller film",
+        "type": "驚悚片",
+        "name": "牠：第二章",
+        "title": "It：Chapter Two",
+        "stars": 4,
+        "bgImg": "https://images4.alphacoders.com/104/thumb-1920-1041823.jpg",
+        "list": ["It：Chapter Two","Ready or Not","Us","Escape Room"]
     },
     {
         "genre":"Comedy film",
@@ -105,6 +115,15 @@
         "stars": 3.5,
         "bgImg": "https://m.media-amazon.com/images/M/MV5BYjM5NjI0YWQtNzg1OC00ODYzLWIxY2YtM2U1MGVlNzI2OTI3XkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_SX1777_CR0,0,1777,750_AL_.jpg",
         "list": ["Five Feet Apart", "Long Shot", "Fortuna's Eye"]
+    },
+    {
+        "genre":"Documentary film",
+        "type": "紀錄片",
+        "name": "赤手登峰",
+        "title": "Free Solo",
+        "stars": 4,
+        "bgImg": "https://www.nationalgeographic.com/content/dam/ngdotcom/rights-exempt/films/free-solo/fsog.adapt.1900.1.jpg",
+        "list": ["Free Solo"]
     },
     {
         "genre":"Taiwan film",
