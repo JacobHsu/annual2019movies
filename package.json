@@ -16,6 +16,7 @@
     "axios": "^0.19.0",
     "bootstrap-vue": "^2.1.0",
     "core-js": "^3.3.2",
+    "gh-pages": "^2.1.1",
     "ks-vue-fullpage": "^1.2.8",
     "ramda": "^0.26.1",
     "velocityjs": "^2.0.0",

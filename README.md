@@ -5,11 +5,11 @@
 
 bootstrap-vue [Vue CLI 3](https://bootstrap-vue.js.org/docs)  
 
-# npm 
+## npm 
 
 [![NPM](https://nodei.co/npm/@fortawesome/vue-fontawesome.png?downloads=true&stars=true)](https://nodei.co/npm/@fortawesome/vue-fontawesome/)  
 
-# References
+## References
 
 網站SEO [Facebook的og tag](https://developers.facebook.com/docs/sharing/webmasters/)  
 [Ks Vue fullpage demo - JSFiddle](https://jsfiddle.net/romainPouchol/rf7csunm/14/)  

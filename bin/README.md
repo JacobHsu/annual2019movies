@@ -24,15 +24,14 @@
 
 最後我們把網址中 https://docs.google.com/spreadsheets/d/{key}/edit 的 {key} 複製到 spreadsheet_key 檔案裡，供之後程式要開啟試算表時存取。
 
-生成電影名單
-===
+## 生成電影名單
+
 `$python all_movies.py`  
 
 http://www.truemovie.com/tairelease2018.htm  
 輸出結果 https://docs.google.com/spreadsheets/d/1_q-Ud2TUuNxCkCDCEh59MSnd5BrrS_q4V67rE8BtI8E/edit#gid=0 工作表1  
 
-
-#製作FB分享圖 電影海報牆  
+## 製作FB分享圖 電影海報牆  
 
 Chrome外掛 [DownFaster](https://chrome.google.com/webstore/detail/downfaster/dcloeafkedgmoodilkgbjbdfbieoiiab)一鍵下載當前網頁的所有素材檔  
 [PhotoScape](http://www.photoscape.org/ps/main/index.php): Free Photo Editing Software (Photo Editor) 

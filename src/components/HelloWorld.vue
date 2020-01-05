@@ -106,7 +106,7 @@ export default {
       .then(response => {
         let thatSections = this.sections;
         let thatList = this.lists;
-console.log(123, response.data)
+
         let omdbapi = [];
         let sub_omdbapi = [];
         let movies = [];
@@ -203,7 +203,7 @@ console.log(123, response.data)
       
     },
     api1: function(title) {
-      console.log(111, title);
+
       const apikey = '4e1e08f0';
       return 'https://www.omdbapi.com/?'+'apikey='+apikey+'&t=' + title + '&type=movie&tomatoes=true';
       // switch(title) {
@@ -242,7 +242,7 @@ a {
     background: rgba(255,255,255,0.2); 
     top: center;
     left: 6%;
-    width: 30rem;
+    width: 25rem;
 }
 footer {
     /* 設定footer的高度 */
