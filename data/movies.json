@@ -21,10 +21,10 @@
         "genre":"Science fiction film",
         "type": "科幻片",
         "name": "星際大戰9：天行者的崛起",
-        "title": "Star Wars: The Rise of Skywalker",
+        "title": "Star Wars: Episode IX",
         "stars": 4,
         "bgImg": "https://images3.alphacoders.com/103/thumb-1920-1037579.jpg",
-        "list": ["Star Wars: The Rise of Skywalker", "I Am Mother","Gemini Man","Alita: Battle Angel","Glass", "Terminator: Dark Fate"]
+        "list": ["Star Wars: Episode IX", "I Am Mother","Gemini Man","Alita: Battle Angel","Glass", "Terminator: Dark Fate"]
     },
     {
         "genre":"classic films",
@@ -74,11 +74,11 @@
     {
         "genre":"Action film",
         "type": "動作片",
-        "name": "捍衛任務3：全面開戰",
-        "title": "John Wick: Chapter 3",
-        "stars": 4,
-        "bgImg": "https://images3.alphacoders.com/103/thumb-1920-1033561.jpg",
-        "list": ["John Wick: Chapter 3","Anna","Hobbs & Shaw","Danger Close","EXIT"]
+        "name": "鬼影特攻：以暴制暴",
+        "title": "6 Underground",
+        "stars": 4.5,
+        "bgImg": "https://m.media-amazon.com/images/M/MV5BNjM0NWU1ZjgtNjRkMC00YTE0LWE5N2QtNDNkNDE4MzMzY2Y2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX1777_CR0,0,1777,832_AL_.jpg",
+        "list": ["6 Underground", "John Wick: Chapter 3","Anna","Hobbs & Shaw","Danger Close","EXIT"]
     },
     {
         "genre":"Crime film",
