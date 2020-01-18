@@ -40,9 +40,11 @@
           </b-card>
 
           <footer>
+            <div class="d-none d-sm-block d-md-none d-flex align-self-end  v-cloak">
+                <span class="text-white">{{section.type}}</span>
+            </div>
             <div class="d-flex justify-content-center align-self-end  v-cloak">
-
-                <b-nav>
+                <b-nav class="shortlist">
                   <b-nav-item v-for="(list,key) in lists[index]">
                       <a class="nav-link" :href="'https://www.google.com.tw/search?q='+list.title" target="_blank" :title="list.title">
                         <img v-bind:src="list.poster" width="100px" height="150px">
@@ -92,9 +94,18 @@ export default {
     this.getList();
   },
   methods: {
+    isMobile() {
+      if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        return true
+      } else {
+        return false
+      }
+    },
     async getList () {
+
       const devEnv = process.env.NODE_ENV
       const moviesData = devEnv === "development" ? '../data/movies.json' : '../annual2019movies/data/movies.json';
+      const isMobile = this.isMobile();
 
       let res  = await axios.get(moviesData)
       .then(response => {
@@ -112,13 +123,17 @@ export default {
           switch(movie.title) {
               case "Eiga: Kakegurui":
                   api = 'https://www.omdbapi.com/?apikey=4e1e08f0&i=tt9552162&plot=full&type=movie&tomatoes=true';
-                  break; 
+                  break;
+              case "Detention":
+                  api = 'https://www.omdbapi.com/?apikey=4e1e08f0&i=tt10805432&plot=full&type=movie&tomatoes=true';
+                  break;  
               default:
                   api = 'https://www.omdbapi.com/?'+'apikey='+apikey+'&t=' + movie.title + '&type=movie&tomatoes=true';
           }
 
           let movieApi = api;
           omdbapi.push(axios.get(movieApi));
+
 
           movies.push(movie);
 
@@ -142,6 +157,10 @@ export default {
                     break;
                 case "City Hunter":
                     theapi ='https://www.omdbapi.com/?apikey=4e1e08f0&i=tt8523334&plot=full&type=movie&tomatoes=true';
+                    break;
+                case "Hunting an Internet Killer":
+                    theapi ='https://www.omdbapi.com/?apikey=4e1e08f0&i=tt11318602&plot=full&type=movie&tomatoes=true';
+                    break;
                 case "Hellboy":
                 case "EXIT":
                     theapi = 'https://www.omdbapi.com/?'+'apikey='+apikey+'&t=' + title + '&type=movie&tomatoes=true&y=2019';
@@ -163,10 +182,12 @@ export default {
 
         axios.all(omdbapi).then(axios.spread((...res)=>{
           res.forEach(function(resOmdb, id) {
-            console.log(resOmdb)
+
             movies[id]['imdb'] = resOmdb.data.imdbRating;
             movies[id]['tomatoRating'] = !resOmdb.data.Ratings[1] ? '' : resOmdb.data.Ratings[1].Value;
             
+            if(isMobile) { movies[id]['bgImg'] = resOmdb.data.Poster; } 
+     
             //thatSections.splice(id, 0, movie_tmps[id]);
             thatSections.push(movies[id]);
 
@@ -195,20 +216,8 @@ export default {
 
       })
       
-    },
-    api1: function(title) {
-
-      const apikey = '4e1e08f0';
-      return 'https://www.omdbapi.com/?'+'apikey='+apikey+'&t=' + title + '&type=movie&tomatoes=true';
-      // switch(title) {
-      //     case "More Than Blue":
-      //         return 'https://www.omdbapi.com/?'+'apikey='+apikey+'&t=' + title + '&y=2018&type=movie&tomatoes=true';
-      //         break;     
-      //     default:
-      //         //https://www.omdbapi.com/?apikey=4e1e08f0&t=
-      //         return 'https://www.omdbapi.com/?'+'apikey='+apikey+'&t=' + title + '&type=movie&tomatoes=true';
-      // }
     }
+
   }
 }
 </script>
@@ -251,8 +260,11 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-  footer {
+  .shortlist {
     visibility: hidden;
+  }
+  .mobile-section-type {
+    visibility: show;
   }
 }
 </style>
