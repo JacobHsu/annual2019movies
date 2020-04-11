@@ -15,7 +15,7 @@
         "title": "Knives Out",
         "stars": 5,
         "bgImg": "https://images8.alphacoders.com/105/thumb-1920-1052048.jpg",
-        "list": ["Knives Out","Parasite","It：Chapter Two"]
+        "list": ["Knives Out","Parasite","It：Chapter Two","Once Upon a Time... in Hollywood"]
     },
     {
         "genre":"Science fiction film",
@@ -33,7 +33,7 @@
         "title": "Doctor Sleep",
         "stars": 4,
         "bgImg": "https://m.media-amazon.com/images/M/MV5BNTI2NjMwMmItZWJlNi00NzE3LTgzNmUtNmIyZjY5YWRhYjY4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX1776_CR0,0,1776,913_AL_.jpg",
-        "list": ["Doctor Sleep","Rambo: Last Blood","Terminator: Dark Fate"]
+        "list": ["Doctor Sleep","Rambo: Last Blood","Terminator: Dark Fate","Zombieland: Double Tap"]
     },
     {
         "genre":"Monster movie",
