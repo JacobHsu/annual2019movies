@@ -14,8 +14,10 @@ bootstrap-vue [Vue CLI 3](https://bootstrap-vue.js.org/docs)
 網站SEO [Facebook的og tag](https://developers.facebook.com/docs/sharing/webmasters/)  
 [Ks Vue fullpage demo - JSFiddle](https://jsfiddle.net/romainPouchol/rf7csunm/14/)  
 [Eslint: How to disable “unexpected console statement”?](https://stackoverflow.com/questions/34215526/eslint-how-to-disable-unexpected-console-statement-in-node-js)  
+[Hiding elements](https://getbootstrap.com/docs/4.3/utilities/display/)  
+
 [alphacoders](http://wall.alphacoders.com)  
-[Hiding elements](https://getbootstrap.com/docs/4.3/utilities/display/)
+[imdb](https://www.imdb.com/) Photos
 
 ## debug
 
