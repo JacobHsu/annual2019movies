@@ -32,7 +32,7 @@
         "name": "安眠醫生",
         "title": "Doctor Sleep",
         "stars": 4,
-        "bgImg": "https://m.media-amazon.com/images/M/MV5BNTI2NjMwMmItZWJlNi00NzE3LTgzNmUtNmIyZjY5YWRhYjY4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX1776_CR0,0,1776,913_AL_.jpg",
+        "bgImg": "https://images3.alphacoders.com/132/thumb-1920-1324997.jpeg",
         "list": ["Doctor Sleep","Rambo: Last Blood","Terminator: Dark Fate","Zombieland: Double Tap"]
     },
     {
@@ -104,7 +104,7 @@
         "name": "雞不可失",
         "title": "Extreme Job",
         "stars": 4.5,
-        "bgImg": "https://m.media-amazon.com/images/M/MV5BMTRiZDJjZTMtNzNlYy00Mzc0LWI4YjItODIzZjlmYjRkMzkxXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_.jpg",
+        "bgImg": "https://m.media-amazon.com/images/M/MV5BMzVlNGI3NWMtNzI1Ny00NDAyLWJhZGUtMmViZDZmMjhjMGQzXkEyXkFqcGc@._V1_.jpg",
         "list": ["Extreme Job","City Hunter"]
     },
     {
@@ -113,8 +113,8 @@
         "name": "愛上觸不到的你",
         "title": "Five Feet Apart",
         "stars": 3.5,
-        "bgImg": "https://m.media-amazon.com/images/M/MV5BYjM5NjI0YWQtNzg1OC00ODYzLWIxY2YtM2U1MGVlNzI2OTI3XkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_SX1777_CR0,0,1777,750_AL_.jpg",
-        "list": ["Five Feet Apart", "Long Shot", "Fortuna's Eye"]
+        "bgImg": "https://picfiles.alphacoders.com/244/thumb-1920-244788.jpg",
+        "list": ["Five Feet Apart", "Long Shot"]
     },
     {
         "genre":"Documentary film",
@@ -140,8 +140,8 @@
         "name": "電影版狂賭之淵",
         "title": "Eiga: Kakegurui",
         "stars": 4.5,
-        "bgImg": "https://m.media-amazon.com/images/M/MV5BNWUwZDI3MjEtZmE0Zi00OTc4LWIzYmYtZGRjZGMyNDMxYzE1XkEyXkFqcGdeQXVyNDQxNjcxNQ@@._V1_.jpg",
-        "list": ["Eiga: Kakegurui","Kingdom","Samurai marason","Fortuna's Eye","Stolen Identity"]
+        "bgImg": "https://m.media-amazon.com/images/M/MV5BM2E1YzMwOTEtMTkxZS00NTYwLWEyZmItY2FmYzA3ZWQwOTM3XkEyXkFqcGc@._V1_.jpg",
+        "list": ["Eiga: Kakegurui","Kingdom","Samurai marason", "Stolen Identity"]
     },
     {
         "genre":"South Korea film",
@@ -149,7 +149,7 @@
         "name": "雞不可失",
         "title": "Extreme Job",
         "stars": 4.5,
-        "bgImg": "https://m.media-amazon.com/images/M/MV5BMmI3YzQ3N2EtMmUyOS00NzdmLWFjMzItY2I5YjIzOGQ5OWI1XkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_SY1000_CR0,0,1500,1000_AL_.jpg",
+        "bgImg": "https://m.media-amazon.com/images/M/MV5BMzVlNGI3NWMtNzI1Ny00NDAyLWJhZGUtMmViZDZmMjhjMGQzXkEyXkFqcGc@._V1_.jpg",
         "list": ["Parasite", "Extreme Job", "EXIT","The Divine Fury"]
     }
 
