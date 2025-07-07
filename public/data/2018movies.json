@@ -1,0 +1,129 @@
+[
+    {
+        "genre":"Superhero film",
+        "type": "超級英雄片",
+        "name": "復仇者聯盟3: 無限之戰",
+        "title": "Avengers: Infinity War",
+        "stars'": 5,
+        "bgImg": "https://images7.alphacoders.com/857/thumb-1920-857340.jpg",
+        "list": ["Avengers: Infinity War","Ant-Man and the Wasp","Aquaman","Black Panther","Deadpool 2","Venom"]
+    },
+    {
+        "genre":"Science fiction film",
+        "type": "科幻片",
+        "name": "一級玩家",
+        "title": "Ready Player One",
+        "stars": 5,
+        "bgImg": "https://images8.alphacoders.com/911/911204.jpg",
+        "list": ["Ready Player One","The Shape of Water","Annihilation","A Quiet Place","Jurassic World: Fallen Kingdom","Pacific Rim: Uprising","Bumblebee","Solo: A stars Wars Story"]
+    },
+    {
+        "genre":"Films based on novels",
+        "type": "小說改編",
+        "name": "一級玩家",
+        "title": "Ready Player One",
+        "stars": 5,
+        "bgImg": "https://images6.alphacoders.com/909/thumb-1920-909870.jpg",
+        "list": ["Ready Player One","Mortal Engines","Maze Runner: The Death Cure","Fantastic Beasts: The Crimes of Grindelwald","Crazy Rich Asians"]
+    },
+    {
+        "genre":"Films based on history",
+        "type": "史實改編",
+        "name": "北風",
+        "title": "The Spy Gone North",
+        "stars": 4,
+        "bgImg": "https://67d860664f4b00793cde-967809c7cbb0f14b111df13fc72409e5.ssl.cf3.rackcdn.com/fiona/editionfilm/984bb74a-4a91-4c2f-b584-9de72dab936b.jpg",
+        "list": ["The Spy Gone North","Darkest Hour","Adrift"]
+    },
+    {
+        "genre":"Animation",
+        "type": "動畫片",
+        "name": "蜘蛛人：新宇宙",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "stars": 5,
+        "bgImg": "https://images2.alphacoders.com/971/thumb-1920-971275.jpg",
+        "list": ["Spider-Man: Into the Spider-Verse","Isle of Dogs","Ferdinand","Ralph Breaks the Internet", "Hotel Transylvania 3","Smallfoot", "On Happiness Road"]
+    },
+    {
+        "genre":"Animation",
+        "type": "日本動畫片",
+        "name": "道別的早晨就用約定之花點綴吧",
+        "title": "MAQUIA: When the Promised Flower Blooms",
+        "stars": 4,
+        "bgImg": "https://i.imgur.com/GhplXUc.jpg",
+        "list": ["GODZILLA: City on the Edge of Battle", "MAQUIA"]
+    },
+    {
+        "genre":"Action film",
+        "type": "動作片",
+        "name": "不可能的任務：全面瓦解",
+        "title": "Mission: Impossible – Fallout",
+        "stars": 5,
+        "bgImg": "https://images8.alphacoders.com/936/thumb-1920-936032.jpg",
+        "list": ["Mission: Impossible – Fallout","Tomb Raider","12 Strong","Skyscraper","The Meg","Rescue Under Fire","Overlord","Mile 22"]
+    },
+    {
+        "genre":"Crime film",
+        "type": "犯罪片",
+        "name": "人肉搜索",
+        "title": "Searching",
+        "stars": 5,
+        "bgImg": "https://m.media-amazon.com/images/M/MV5BMTg0OTU3ODAzMV5BMl5BanBnXkFtZTgwODkwNDgyNDM@._V1_.jpg",
+        "list": ["Searching","Project Gutenberg","Ocean's Eight","Sicario: Day of the Soldado","Three Billboards Outside Ebbing","The Vanished","A Simple Favor"]
+    },
+    {
+        "genre":"Comedy film",
+        "type": "喜劇片",
+        "name": "遊戲夜殺必死",
+        "title": "Game Night",
+        "stars": 4,
+        "bgImg": "https://m.media-amazon.com/images/M/MV5BOTc3ODU0NTI5MV5BMl5BanBnXkFtZTgwNTQ4Nzc3NDM@._V1_.jpg",
+        "list": ["Game Night","Secrets in the Hot Spring","Pitch Perfect 3","Brother of the Year"]
+    },
+    {
+        "genre":"Documentary film",
+        "type": "紀錄片",
+        "name": "電影配樂傳奇",
+        "title": "Score: A Film Music Documentary",
+        "stars": 4,
+        "bgImg": "https://metropole.at/wp-content/uploads/2018/01/Score-Film.png",
+        "list": ["Score: A Film Music Documentary"]
+    },
+    {
+        "genre":"Romance film",
+        "type": "愛情片",
+        "name": "一個巨星的誕生",
+        "title": "A Star Is Born",
+        "stars": 4,
+        "bgImg": "https://images6.alphacoders.com/955/thumb-1920-955323.jpg",
+        "list": ["A Star Is Born","More Than Blue","Crazy Rich Asians","Ice","Adrift"]
+    },
+    {
+        "genre":"Taiwan film",
+        "type": "台灣片",
+        "name": "比悲傷更悲傷的故事",
+        "title": "More Than Blue",
+        "stars": 4,
+        "bgImg": "https://cdn.hk01.com/di/media/images/2174903/org/b8e818dad363cfa40ab1837ad55e0e91.jpg/FgbCTzEAkvvyHJj9f3EvSen8YOKQrgEtsjkVErI5FRI?v=w1920",
+        "list": ["More Than Blue","Secrets in the Hot Spring","On Happiness Road","The Scoundrels"]
+    },
+    {
+        "genre":"Japan film",
+        "type": "日本片",
+        "name": "一屍到底",
+        "title": "One Cut of the Dead",
+        "stars": 4, 
+        "bgImg": "https://i.ytimg.com/vi/MZrlv8n4QAs/maxresdefault.jpg",
+        "list": ["One Cut of the Dead","Mumon","DESTINY:The Tale of Kamakura","Diamond Is Unbreakable","Gintama 2"]
+    },
+    {
+        "genre":"South Korea film",
+        "type": "韓國片",
+        "name": "與神同行2: 最終審判",
+        "title": "Along With The Gods: The Last 49 Days",
+        "stars": 4, 
+        "bgImg": "https://cdn-images-1.medium.com/max/1600/1*UsPtT4v17SJKPbVzHDbpbg.jpeg",
+        "list": ["Along With The Gods: The Last 49 Days", "The Spy Gone North", "The Vanished"]
+    }
+
+]

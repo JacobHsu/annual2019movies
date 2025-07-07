@@ -1,5 +1,11 @@
 <template>
   <div class="hello">
+    <div class="year-switcher">
+      <b-nav>
+        <b-nav-item @click="changeYear(2019)" :active="year === 2019">2019</b-nav-item>
+        <b-nav-item @click="changeYear(2018)" :active="year === 2018">2018</b-nav-item>
+      </b-nav>
+    </div>
     <ksvuefp :options="options" :sections="sections">
       <ksvuefp-section 
         v-for="(section,index) in sections" 
@@ -9,10 +15,10 @@
         :background-color="section.bgColor"
         :background-image="'url('+ section.bgImg +')'">
           <b-card
-            header="2019個人評價最高的"
+            :header="year + '個人評價最高的'"
             :title="section.type"
             header-text-variant="white"
-            :text-variant="section.type === '動作片' ? 'black' : 'white'"
+            text-variant="white"
             class="card d-none d-md-block text-right"
             >
              <b-card-text :class="section.type === '動作片' ? 'text-black' : 'text-white'">  
@@ -29,11 +35,11 @@
                   <span class="rank ml-2">
                       <span v-if="section.imdb!='N/A'">
                         <img border="0" src="../assets/imdb.svg" width="32" height="16">
-                        <span :class="section.type === '動作片' ? 'text-black' : 'text-white'"> {{section.imdb}} </span>
+                        <span class="text-white"> {{section.imdb}} </span>
                       </span> 
                       <span v-if="section.tomatoRating"> 
                           <img border="0" src="../assets/rottentomatoes.svg" width="16" height="16">
-                          <span :class="section.type === '動作片' ? 'text-black' : 'text-white'"> {{section.tomatoRating}}</span>
+                          <span class="text-white"> {{section.tomatoRating}}</span>
                       </span> 
                   </span>
             </b-card-footer>
@@ -71,17 +77,9 @@ export default {
   },
   data(){
     return {
+      year: 2019,
       mysections:[],
-      sections: [
-        // {
-        //   bgColor: '#ec407a',
-        //   content: 'I am section 1'
-        // },
-        // {
-        //   bgColor: '#42a5f5',
-        //   content: 'I am section 2'
-        // },
-      ],
+      sections: [],
       lists: [],
       options: {
         // Your custom options here
@@ -91,9 +89,15 @@ export default {
     }
   },
   created() {
-    this.getList();
+    this.getList(this.year);
   },
   methods: {
+    changeYear(year) {
+      this.year = year;
+      this.sections = [];
+      this.lists = [];
+      this.getList(year);
+    },
     isMobile() {
       if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         return true
@@ -101,10 +105,10 @@ export default {
         return false
       }
     },
-    async getList () {
+    async getList (year) {
 
       const devEnv = process.env.NODE_ENV
-      const moviesData = devEnv === "development" ? '../data/movies.json' : '../annual2019movies/data/movies.json';
+      const moviesData = devEnv === "development" ? `../data/${year}movies.json` : `../annual2019movies/data/${year}movies.json`;
       const isMobile = this.isMobile();
 
       let res  = await axios.get(moviesData)
@@ -238,6 +242,19 @@ li {
 a {
   color: #42b983;
 } */
+.year-switcher {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
+.year-switcher .nav-link {
+  color: white;
+  font-weight: bold;
+}
+.year-switcher .nav-link.active {
+  color: #ffc107;
+}
 .hello {
   background-color: aqua;
 }
