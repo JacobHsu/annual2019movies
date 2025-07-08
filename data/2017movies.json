@@ -1,0 +1,165 @@
+[
+    {
+        "genre":"Superhero film",
+        "type": "超級英雄片",
+        "name": "雷神索爾3: 諸神黃昏",
+        "title": "Thor: Ragnarok",
+        "stars": 4,
+        "bgImg": "https://images6.alphacoders.com/115/thumb-1920-1156339.jpg",
+        "list": ["Thor: Ragnarok","Logan","Justice League","Wonder Woman","Spider-Man: Homecoming","Guardians of the Galaxy Vol. 2"]
+    },
+    {
+        "genre":"Drama",
+        "type": "劇情片",
+        "name": "佈局",
+        "title": "The Invisible Guest",
+        "stars": 4,
+        "bgImg": "https://www.lascimmiapensa.com/wp-content/uploads/2017/07/contra.jpg",
+        "list": ["Miss Sloane","The Invisible Guest"]
+    },
+    {
+        "genre":"Science fiction film",
+        "type": "科幻片",
+        "name": "星際特工: 千星之城",
+        "title": "Valerian and the City of a Thousand Planets",
+        "stars": 4,
+        "bgImg": "https://i.pinimg.com/originals/ab/32/69/ab3269673c7c6e9794797c1ceab3b18d.jpg",
+        "list": ["Valerian and the City of a Thousand Planets","What Happened To Monday","Ghost in the Shell","Star Wars: The Last Jedi","Colossal","War for the Planet of the Apes","Alien: Covenant","Transformers: The Last Knight","Jumanji: Welcome to the Jungle"]
+    },
+    {
+        "genre":"Science fiction film",
+        "type": "奇幻片",
+        "name": "與神同行",
+        "title": "Along with the Gods",
+        "stars": 5,
+        "bgImg": "https://www.acmodasi.in/amdb/images/movie/c/y/along-with-the-gods-the-two-worlds-2017-ndBq6C.jpg",
+        "list": ["Along with the Gods","Pirates of the Caribbean:Dead Men Tell No Tales","King Arthur: Legend of the Sword","The Mummy","Beauty and the Beast"]
+    },
+    {
+        "genre":"classic films",
+        "type": "經典再續",
+        "name": "星際大戰8: 最後的絕地武士",
+        "title": "Star Wars: The Last Jedi",
+        "stars": 4,
+        "bgImg": "https://images4.alphacoders.com/882/thumb-1920-882283.jpg",
+        "list": ["Star Wars: The Last Jedi","Ghost in the Shell","Kong: Skull Island","Power Rangers","The Mummy","Beauty and the Beast","Jumanji: Welcome to the Jungle"]
+    },
+    {
+        "genre":"Monster movie",
+        "type": "殭屍片",
+        "name": "惡靈古堡：血仇",
+        "title": "Resident Evil: Vendetta",
+        "stars": 4,
+        "bgImg": "https://assets1.ignimgs.com/2017/06/23/resident-evil-vendetta-1920a-1498261470573_1280w.jpg",
+        "list": ["Resident Evil: The Final Chapter","Resident Evil: Vendetta"]
+    },
+    {
+        "genre":"Films based on novels",
+        "type": "小說改編",
+        "name": "為了與你相遇",
+        "title": "A Dog's Purpose",
+        "stars": 4,
+        "bgImg": "https://images2.alphacoders.com/739/thumb-1920-739420.jpg",
+        "list": ["A Dog's Purpose","Murder on the Orient Express","It"]
+    },
+    {
+        "genre":"Films based on history",
+        "type": "真人真事改編",
+        "name": "敦克爾克大行動",
+        "title": "Dunkirk",
+        "stars": 5,
+        "bgImg": "https://images2.alphacoders.com/861/thumb-1920-861311.jpg",
+        "list": ["Dunkirk","Dangal","A Taxi Driver","Land of Mine"]
+    },
+    {
+        "genre":"Animation",
+        "type": "動畫片",
+        "name": "可可夜總會",
+        "title": "Coco",
+        "stars": 4.5,
+        "bgImg": "https://images3.alphacoders.com/112/thumb-1920-1122540.jpg",
+        "list": ["Coco","In This Corner of the World","Despicable Me 3","The Lego Batman Movie","Resident Evil: Vendetta"]
+    },
+    {
+        "genre":"Action film",
+        "type": "動作片",
+        "name": "捍衛任務2: 殺神回歸",
+        "title": "John Wick: Chapter 2",
+        "stars": 4,
+        "bgImg": "https://images3.alphacoders.com/746/746551.jpg",
+        "list": ["John Wick: Chapter 2","The Fate of the Furious","xXx: Return of Xander Cage","Baby Driver","Kingsman: The Golden Circle","Allied"]
+    },
+    {
+        "genre":"Thriller film",
+        "type": "驚悚片",
+        "name": "逃出絕命鎮",
+        "title": "Get Out",
+        "stars": 4,
+        "bgImg": "https://cdn.vox-cdn.com/uploads/chorus_image/image/57985175/GetOutChris.0.jpg",
+        "list": ["Get Out","Split","Who Killed Cock Robin","It","Alien: Covenant","Wind River"]
+    },
+    {
+        "genre":"Comedy film",
+        "type": "喜劇片",
+        "name": "雷神索爾3: 諸神黃昏",
+        "title": "Thor: Ragnarok",
+        "stars": 4.5,
+        "bgImg": "https://images7.alphacoders.com/874/874950.jpg",
+        "list": ["Thor: Ragnarok","Girls Trip","The Village Of No Return","Gintama Live Action the Movie","The Hitman's Bodyguard","Jumanji: Welcome to the Jungle"]
+    },
+    {
+        "genre":"Romance film",
+        "type": "愛情片",
+        "name": "神力女超人",
+        "title": "Wonder Woman",
+        "stars": 4.5,
+        "bgImg": "https://images5.alphacoders.com/832/thumb-1920-832139.jpg",
+        "list": ["Wonder Woman","Beauty and the Beast"]
+    },
+    {
+        "genre":"Taiwan film",
+        "type": "台灣片",
+        "name": "血觀音",
+        "title": "The Bold, The Corrupt And The Beautiful",
+        "stars": 4,
+        "bgImg": "https://s3.beautimode.com/upload/media/41f7c392f683215ebf77951b0f50dc23.jpg",
+        "list": ["The Corrupt And The Beautiful","Who Killed Cock Robin","52Hz, I Love You"]
+    },
+    {
+        "genre":"Japan film",
+        "type": "日本片",
+        "name": "銀魂真人版",
+        "title": "Gintama",
+        "stars": 4,
+        "bgImg": "https://pbs.twimg.com/media/DC6flgFUIAA8FfW.jpg",
+        "list": ["In This Corner of the World", "Gintama Live Action the Movie","Honnouji Hotel","Teiichi"]
+    },
+    {
+        "genre":"South Korea film",
+        "type": "韓國片",
+        "name": "與神同行",
+        "title": "Along with the Gods",
+        "stars": 5,
+        "bgImg": "https://m.media-amazon.com/images/M/MV5BNTFkZDRkNmMtZThhMS00NTc1LTg2MjYtNGRiODAxYjY2MjY2XkEyXkFqcGc@._V1_.jpg",
+        "list": ["Along with the Gods","A Taxi Driver","The Battleship Island"]
+    },
+    {
+        "genre":"Thailand film",
+        "type": "泰國片",
+        "name": "模犯生",
+        "title": "Bad Genius",
+        "stars": 4,
+        "bgImg": "https://www.acmodasi.in/amdb/images/movie/p/n/bad-genius-2017-RvCRvO.jpg",
+        "list": ["Bad Genius","Dangal"]
+    },
+    {
+        "genre":"Foreign language film",
+        "type": "外語片",
+        "name": "拆彈少年",
+        "title": "Land of Mine",
+        "stars": 4,
+        "bgImg": "https://m.media-amazon.com/images/M/MV5BMTc1NDY5OTE3Ml5BMl5BanBnXkFtZTgwMDkxNzA2MjE@._V1_.jpg",
+        "list": ["The Invisible Guest","Italian Race","Land of Mine","L'outsider"]
+    }
+
+]
