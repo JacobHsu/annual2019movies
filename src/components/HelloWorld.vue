@@ -4,13 +4,14 @@
       <b-nav>
         <b-nav-item @click="changeYear(2019)" :active="year === 2019">2019</b-nav-item>
         <b-nav-item @click="changeYear(2018)" :active="year === 2018">2018</b-nav-item>
+        <b-nav-item @click="changeYear(2017)" :active="year === 2017">2017</b-nav-item>
       </b-nav>
     </div>
     <ksvuefp :options="options" :sections="sections">
       <ksvuefp-section 
         v-for="(section,index) in sections" 
         :section="section" 
-        :key="section.bgColor" 
+        :key="section.type + section.name" 
         :section-index="index" 
         :background-color="section.bgColor"
         :background-image="'url('+ section.bgImg +')'">
@@ -108,7 +109,7 @@ export default {
     async getList (year) {
 
       const devEnv = process.env.NODE_ENV
-      const moviesData = devEnv === "development" ? `../data/${year}movies.json` : `../annual2019movies/data/${year}movies.json`;
+      const moviesData = devEnv === "development" ? `../data/${year}movies.json` : `data/${year}movies.json`;
       const isMobile = this.isMobile();
 
       let res  = await axios.get(moviesData)
@@ -187,10 +188,10 @@ export default {
         axios.all(omdbapi).then(axios.spread((...res)=>{
           res.forEach(function(resOmdb, id) {
 
-            movies[id]['imdb'] = resOmdb.data.imdbRating;
-            movies[id]['tomatoRating'] = !resOmdb.data.Ratings[1] ? '' : resOmdb.data.Ratings[1].Value;
+            movies[id]['imdb'] = resOmdb.data.imdbRating || 'N/A';
+            movies[id]['tomatoRating'] = (resOmdb.data.Ratings && resOmdb.data.Ratings[1]) ? resOmdb.data.Ratings[1].Value : '';
             
-            if(isMobile) { movies[id]['bgImg'] = resOmdb.data.Poster; } 
+            if(isMobile) { movies[id]['bgImg'] = resOmdb.data.Poster || movies[id]['bgImg']; } 
      
             //thatSections.splice(id, 0, movie_tmps[id]);
             thatSections.push(movies[id]);
@@ -210,7 +211,8 @@ export default {
           ()=>{ 
             this.sections = movies;
             this.lists = thatList;
-            console.log(thatList)
+            console.log('Final sections:', this.sections);
+            console.log('Final lists:', thatList)
           }
         );
 

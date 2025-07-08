@@ -16,8 +16,10 @@ bootstrap-vue [Vue CLI 3](https://bootstrap-vue.js.org/docs)
 [Eslint: How to disable “unexpected console statement”?](https://stackoverflow.com/questions/34215526/eslint-how-to-disable-unexpected-console-statement-in-node-js)  
 [Hiding elements](https://getbootstrap.com/docs/4.3/utilities/display/)  
 
+[omdbapi](http://www.omdbapi.com)  
 [alphacoders](http://wall.alphacoders.com)  
-[imdb](https://www.imdb.com/) Photos
+[imdb](https://www.imdb.com/) Photos 
+acmodasi [amdb](https://www.acmodasi.in/amdb)  
 
 ## debug
 
