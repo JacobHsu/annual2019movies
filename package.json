@@ -20,7 +20,7 @@
     "ks-vue-fullpage": "^1.2.8",
     "ramda": "^0.26.1",
     "velocityjs": "^2.0.0",
-    "vue": "^2.6.10"
+    "vue": "^2.6.14"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",
@@ -30,7 +30,7 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^6.0.1",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.14"
   },
   "eslintConfig": {
     "root": true,
