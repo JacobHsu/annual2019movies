@@ -5,6 +5,7 @@
         <b-nav-item @click="changeYear(2019)" :active="year === 2019">2019</b-nav-item>
         <b-nav-item @click="changeYear(2018)" :active="year === 2018">2018</b-nav-item>
         <b-nav-item @click="changeYear(2017)" :active="year === 2017">2017</b-nav-item>
+        <b-nav-item @click="changeYear(2016)" :active="year === 2016">2016</b-nav-item>
       </b-nav>
     </div>
     <ksvuefp :options="options" :sections="sections">
@@ -132,6 +133,9 @@ export default {
               case "Detention":
                   api = 'https://www.omdbapi.com/?apikey=4e1e08f0&i=tt10805432&plot=full&type=movie&tomatoes=true';
                   break;  
+              case "Sherlock: The Abominable Bride":
+                  api = 'https://www.omdbapi.com/?'+'apikey='+apikey+'&i=' + 'tt3845232' + '&type=movie&tomatoes=true';
+                  break;
               default:
                   api = 'https://www.omdbapi.com/?'+'apikey='+apikey+'&t=' + movie.title + '&type=movie&tomatoes=true';
           }
@@ -153,6 +157,9 @@ export default {
                     break;
                 case "Detention":
                     theapi = 'https://www.omdbapi.com/?apikey=4e1e08f0&i=tt10805432&plot=full&type=movie&tomatoes=true';
+                    break;
+                case "Sherlock: The Abominable Bride":
+                    theapi = 'https://www.omdbapi.com/?'+'apikey='+apikey+'&i=' + 'tt3845232&plot=full' + '&type=movie&tomatoes=true';
                     break; 
                 case "Samurai marason":
                     theapi = 'https://www.omdbapi.com/?apikey=4e1e08f0&i=tt9311062&plot=full&type=movie&tomatoes=true';

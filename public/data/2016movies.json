@@ -1,0 +1,146 @@
+[
+    {
+        "genre":"Superhero film",
+        "type": "超級英雄片",
+        "name": "美國隊長3：英雄內戰",
+        "title": "Captain America 3: Civil War",
+        "stars": 5,
+        "bgImg": "https://images.alphacoders.com/669/thumb-1920-669681.jpg",
+        "list": ["Captain America: Civil War","Deadpool","Doctor Strange","Batman v Superman: Dawn of Justice","X-Men: Apocalypse","Teenage Mutant Ninja Turtles:Out","Suicide Squad"]
+    },
+    {
+        "genre":"Drama",
+        "type": "劇情片",
+        "name": "下女的誘惑",
+        "title": "The Handmaiden",
+        "stars": 4,
+        "bgImg": "https://m.media-amazon.com/images/M/MV5BMTkyNDQyNTc4NF5BMl5BanBnXkFtZTgwMDU4MzkzMDI@._V1_FMjpg_UX2048_.jpg",
+        "list": ["The Handmaiden","Cold War 2","The Big Short","Shin Godzilla","Eye in the Sky"]
+    },
+    {
+        "genre":"Science fiction film",
+        "type": "科幻片",
+        "name": "星際爭霸戰3: 浩瀚無垠",
+        "title": "Star Trek Beyond",
+        "stars": 4.5,
+        "bgImg": "https://images3.alphacoders.com/729/thumb-1920-729834.jpg",
+        "list": ["Star Trek Beyond","Rogue One: A Star Wars Story","The 5th Wave","Independence Day: Resurgence"]
+    },
+    {
+        "genre":"Science fiction film",
+        "type": "奇幻片",
+        "name": "與森林共舞",
+        "title": "The Jungle Book",
+        "stars": 4.5,
+        "bgImg": "https://images6.alphacoders.com/712/thumb-1920-712995.jpg",
+        "list": ["Warcraft","Fantastic Beasts and Where to Find Them","The Jungle Book","The Legend of Tarzan","Alice Through the Looking Glass","Miss Peregrine's Home for Peculiar Children"]
+    },
+    {
+        "genre":"Zombie movie",
+        "type": "殭屍片",
+        "name": "屍速列車",
+        "title": "Train to Busan",
+        "stars": 4.5,
+        "bgImg": "https://images.alphacoders.com/939/thumb-1920-939710.jpg",
+        "list": ["Train to Busan","Seoul Station","I Am a Hero","Pride and Prejudice and Zombies"]
+    },
+    {
+        "genre":"Films based on novels",
+        "type": "小說改編",
+        "name": "不存在的房間",
+        "title": "Room",
+        "stars": 4,
+        "bgImg": "https://m.media-amazon.com/images/M/MV5BMTkzOTAxMjE0N15BMl5BanBnXkFtZTgwODQzMzU1NzE@._V1_.jpg",
+        "list": ["Room","Fantastic Beasts and Where to Find Them","Inferno","The 5th Wave","Time Raiders"]
+    },
+    {
+        "genre":"Films based on history",
+        "type": "真人真事改編",
+        "name": "鋼鐵英雄",
+        "title": "Hacksaw Ridge",
+        "stars": 4.5,
+        "bgImg": "https://images3.alphacoders.com/760/thumb-1920-760446.jpg",
+        "list": ["Hacksaw Ridge","Deepwater Horizon","Room","Snowden","Sully","Ip Man 3","The Finest Hours"]
+    },
+    {
+        "genre":"Films based on comics",
+        "type": "漫畫改編",
+        "name": "請叫我英雄",
+        "title": "I Am a Hero",
+        "stars": 4,
+        "bgImg": "https://m.media-amazon.com/images/M/MV5BMjIxZGY3OTYtZDlmOC00ZWFhLWEzOTItNzFmNGQ2N2I1MjNmXkEyXkFqcGc@._V1_.jpg",
+        "list": ["Suicide Squad","I Am a Hero","Teenage Mutant Ninja Turtles:Out"]
+    },
+    {
+        "genre":"Animation",
+        "type": "動畫片",
+        "name": "動物方城市",
+        "title": "Zootopia",
+        "stars": 4.5,
+        "bgImg": "https://images.alphacoders.com/685/thumb-1920-685151.jpg",
+        "list": ["Zootopia","Your Name.","Kung Fu Panda 3","Finding Dory","The Good Dinosaur","Batman: The Killing Joke"]
+    },
+    {
+        "genre":"Action film",
+        "type": "動作片",
+        "name": "神鬼認證5",
+        "title": "Jason Bourne",
+        "stars": 4,
+        "bgImg": "https://images5.alphacoders.com/706/thumb-1920-706925.jpg",
+        "list": ["Jason Bourne","London Has Fallen"]
+    },
+    {
+        "genre":"Thriller film",
+        "type": "驚悚片",
+        "name": "新世紀福爾摩斯：地獄新娘",
+        "title": "Sherlock: The Abominable Bride",
+        "stars": 4,
+        "bgImg": "https://images.alphacoders.com/103/thumb-1920-1036455.jpg",
+        "list": ["Sherlock: The Abominable Bride","Cold War 2","The Nice Guys","The Handmaiden","Room","The Neon Demon","Inferno","Money Monster"]
+    },
+    {
+        "genre":"Wuxia film",
+        "type": "武俠片",
+        "name": "師父",
+        "title": "The Final Master",
+        "stars": 4,
+        "bgImg": "https://m.media-amazon.com/images/M/MV5BMTk3MDg0MTU1MV5BMl5BanBnXkFtZTgwNTM3MDcwOTE@._V1_.jpg",
+        "list": ["The Final Master","Ip Man 3","Hidden Dragon: Sword of Destiny","Call Of Heroes"]
+    },
+    {
+        "genre":"Comedy film",
+        "type": "喜劇片",
+        "name": "假會徵信社",
+        "title": "The Nice Guys",
+        "stars": 4.5,
+        "bgImg": "https://images7.alphacoders.com/703/thumb-1920-703033.jpg",
+        "list": ["The Nice Guys","Central Intelligence","Too Young to Die"]
+    },
+    {
+        "genre":"Romance film",
+        "type": "愛情片",
+        "name": "你的名字",
+        "title": "Your Name.",
+        "stars": 5,
+        "bgImg": "https://images7.alphacoders.com/736/thumb-1920-736462.jpg",
+        "list": ["Your Name.", "Me Before You"]
+    },
+    {
+        "genre":"Japan film",
+        "type": "日本片",
+        "name": "你的名字",
+        "title": "Your Name.",
+        "stars": 5,
+        "bgImg": "https://images4.alphacoders.com/687/thumb-1920-687986.jpg",
+        "list": ["Your Name.","Shin Godzilla","I Am a Hero","Too Young to Die"]
+    },
+    {
+        "genre":"South Korea film",
+        "type": "韓國片",
+        "name": "屍速列車",
+        "title": "Train to Busan",
+        "stars": 4.5,
+        "bgImg": "https://picfiles.alphacoders.com/204/thumb-1920-204281.jpg",
+        "list": ["Train to Busan","Seoul Station","The Handmaiden"]
+    }
+]

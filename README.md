@@ -20,6 +20,7 @@ bootstrap-vue [Vue CLI 3](https://bootstrap-vue.js.org/docs)
 [alphacoders](http://wall.alphacoders.com)  
 [imdb](https://www.imdb.com/) Photos 
 acmodasi [amdb](https://www.acmodasi.in/amdb)  
+PhotoScape  
 
 ## debug
 
