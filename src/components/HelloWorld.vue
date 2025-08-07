@@ -6,6 +6,7 @@
         <b-nav-item @click="changeYear(2018)" :active="year === 2018">2018</b-nav-item>
         <b-nav-item @click="changeYear(2017)" :active="year === 2017">2017</b-nav-item>
         <b-nav-item @click="changeYear(2016)" :active="year === 2016">2016</b-nav-item>
+        <b-nav-item @click="changeYear(2015)" :active="year === 2015">2015</b-nav-item>
       </b-nav>
     </div>
     <ksvuefp :options="options" :sections="sections">

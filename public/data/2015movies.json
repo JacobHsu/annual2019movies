@@ -1,0 +1,128 @@
+[
+    {
+        "genre":"Superhero film",
+        "type": "超級英雄片",
+        "name": "蟻人",
+        "title": "Ant-Man",
+        "stars": 5,
+        "bgImg": "https://images.alphacoders.com/606/thumb-1920-606182.jpg",
+        "list": ["Ant-Man","Age Of Ultron"]
+    },
+    {
+        "genre":"Science fiction film",
+        "type": "科幻片",
+        "name": "絕地救援",
+        "title": "The Martian",
+        "stars": 4.5,
+        "bgImg": "http://images2.alphacoders.com/651/651380.jpg",
+        "list": ["The Martian","Ex Machina","The Force Awakens","Project Almanac","Tomorrowland","Chappie"]
+    },
+    {
+        "genre":"Spy film",
+        "type": "特務片",
+        "name": "金牌特務",
+        "title": "Kingsman: The Secret Service",
+        "stars": 4.5,
+        "bgImg": "http://images5.alphacoders.com/605/605957.jpg",
+        "list":  ["Kingsman: The Secret Service","The Man From U.N.C.L.E.","Mission Impossible: Rogue Nation","Spy","Spectre"]
+    },
+    {
+        "genre":"Disaster film",
+        "type": "災難片",
+        "name": "聖母峰",
+        "title": "Everest",
+        "stars": 4,
+        "bgImg": "http://images5.alphacoders.com/635/635970.jpg",
+        "list": ["Everest","San Andreas"]
+    },
+    {
+        "genre":"Zombie movie",
+        "type": "殭屍片",
+        "name": "殭屍教戰守則",
+        "title": "Scouts Guide to the Zombie Apocalypse",
+        "stars": 3.5,
+        "bgImg": "https://image.tmdb.org/t/p/original/i9q16AcV67QSTD0PCT91vf4ywfd.jpg",
+        "list": ["Scouts Guide to the Zombie Apocalypse"]
+    },
+    {
+        "genre":"Films based on novels",
+        "type": "小說改編",
+        "name": "絕地救援",
+        "title": "The Martian",
+        "stars": 4.5,
+        "bgImg": "http://images8.alphacoders.com/651/651379.jpg",
+        "list": ["The Martian","Bridge of Spies","The Hunger Games: Mockingjay - Part 1","The Hunger Games: Mockingjay - Part 2","Victor Frankenstein","The Scorch Trials","Mr. Holmes","Dark Places"]
+    },
+    {
+        "genre":"Films based on comics",
+        "type": "童話改編",
+        "name": "仙履奇緣",
+        "title": "Cinderella",
+        "stars": 4,
+        "bgImg": "http://images4.alphacoders.com/566/566808.jpg",
+        "list": ["Cinderella","Into the Woods"]
+    },
+    {
+        "genre":"Films based on history",
+        "type": "真人真事改編",
+        "name": "衝出康普頓",
+        "title": "Straight Outta Compton",
+        "stars": 4,
+        "bgImg": "https://picfiles.alphacoders.com/446/thumb-1920-44606.jpg",
+        "list": ["Straight Outta Compton","Bridge of Spies","The Imitation Game","Ip Man 3","American Sniper"]
+    },
+        {
+        "genre":"classic films",
+        "type": "經典再續",
+        "name": "瘋狂麥斯: 憤怒道",
+        "title": "Mad Max: Fury",
+        "stars": 4,
+        "bgImg": "https://images.alphacoders.com/635/thumb-1920-635123.jpg",
+        "list": ["Mad Max: Fury","The Force Awakens","Terminator Genisys","Jurassic World"]
+    },
+    {
+        "genre":"Animation",
+        "type": "動畫片",
+        "name": "腦筋急轉彎",
+        "title": "Inside Out",
+        "stars": 4.5,
+        "bgImg": "http://images3.alphacoders.com/601/601040.jpg",
+        "list": ["Inside Out","The Little Prince","Big Hero 6"]
+    },
+    {
+        "genre":"Action film",
+        "type": "動作片",
+        "name": "玩命關頭7",
+        "title": "Fast & Furious 7",
+        "stars": 4,
+        "bgImg": "http://images6.alphacoders.com/589/589040.jpg",
+        "list": ["Fast & Furious 7","Mission Impossible: Rogue Nation","The Scorch Trials","Taken 3"]
+    },
+    {
+        "genre":"Thriller film",
+        "type": "驚悚片",
+        "name": "怒火邊界",
+        "title": "Sicario",
+        "stars": 4,
+        "bgImg": "https://images.alphacoders.com/132/thumb-1920-1324980.jpeg",
+        "list": ["Sicario","Crimson Peak","Dark Places"]
+    },
+    {
+        "genre":"Comedy film",
+        "type": "喜劇片",
+        "name": "万万没想到：西游篇",
+        "title": "Surprise",
+        "stars": 4.5,
+        "bgImg": "http://img2.ali213.net/picfile/News/2015/12/20/2015122021752768.jpg",
+        "list": ["Surprise","The Intern","Scouts Guide to the Zombie Apocalypse","Pitch Perfect 2","Ted 2"]
+    },
+    {
+        "genre":"Romance film",
+        "type": "愛情片",
+        "name": "我的少女時代",
+        "title": "Our Times",
+        "stars": 4.5,
+        "bgImg": "https://m.media-amazon.com/images/M/MV5BNzE0YjIyY2QtZGUwZS00Y2I3LTkwODQtZjIwOGJkMWQwOTA2XkEyXkFqcGc@._V1_FMjpg_UX1748_.jpg",
+        "list": ["Our Times"]
+    }
+]
